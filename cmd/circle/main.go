@@ -21,8 +21,8 @@ func main() {
 	// Make a circle:
 	circle := &circletopolygon.Circle{
 		Centre: &circletopolygon.Point{
-			Latitude:  float32(*latitude),
-			Longitude: float32(*longitude),
+			Latitude:  float64(*latitude),
+			Longitude: float64(*longitude),
 		},
 		Radius: int32(*radius),
 	}

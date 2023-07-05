@@ -43,8 +43,8 @@ func (c *Circle) ToPolygon(edges int) (Polygon, error) {
 
 		// Add the next point to our polygon:
 		polygon = append(polygon, &Point{
-			Latitude:  float32(geometry.Degrees(latitude)),
-			Longitude: float32(geometry.Degrees(longitude)),
+			Latitude:  float64(geometry.Degrees(latitude)),
+			Longitude: float64(geometry.Degrees(longitude)),
 		})
 	}
 

@@ -7,8 +7,8 @@ var ErrPointOutOfBounds = fmt.Errorf("Latitudes and longitudes must be between -
 
 // Point represents a geographic coordinate:
 type Point struct {
-	Latitude  float32 `json:"latitude"`
-	Longitude float32 `json:"longitude"`
+	Latitude  float64 `json:"latitude"`
+	Longitude float64 `json:"longitude"`
 }
 
 // Validate that our Point makes sense:
