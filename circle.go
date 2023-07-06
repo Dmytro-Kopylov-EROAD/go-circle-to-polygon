@@ -3,7 +3,7 @@ package circletopolygon
 import (
 	"math"
 
-	"github.com/chrusty/go-circle-to-polygon/pkg/geometry"
+	"github.com/Dmytro-Kopylov-EROAD/go-circle-to-polygon/pkg/geometry"
 )
 
 // Circle represents a circular area:
