@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	circletopolygon "github.com/chrusty/go-circle-to-polygon"
+	circletopolygon "github.com/Dmytro-Kopylov-EROAD/go-circle-to-polygon"
 )
 
 var (
