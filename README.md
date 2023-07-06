@@ -1,6 +1,6 @@
-Circle-to-Polygon
-=================
-
+Circle-to-Polygon Fork. 
+======================
+This fork adds just a one change - float64 as a type for latitude and longitude.
 A Go library to convert a circle to a polygon (port of https://github.com/gabzim/circle-to-polygon).
 
 
